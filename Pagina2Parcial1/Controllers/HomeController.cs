@@ -13,16 +13,30 @@ namespace Pagina2Parcial1.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Historia()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Productos()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Categorias()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Diferentes formas de contacto.";
 
             return View();
         }
